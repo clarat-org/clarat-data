@@ -1,0 +1,39 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	min-height: 100%;
+	font-family: 'roboto-regular', serif;
+	background: #f6eedc url(../../img/body_background.svg) center bottom no-repeat;
+	background-attachment: fixed;
+	color: #41311A;
+}
+
+* {
+	margin-top: 0;
+}
+
+a {
+	color: inherit
+}
+
+.container {
+	border-top-left-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1140px;
+	background: rgba(255,255,255,0.9);
+	border-top: 10px solid #85A6AE;
+}
+
+
+%linkbutton {
+	border-radius: 6px 0;
+	font-family: 'roboto-bold', serif;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 10px;
+	line-height: 2;
+}

@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'roboto-bold';
+	src: url('../../fonts/Roboto-Bold-webfont.eot');
+	src: url('../../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/Roboto-Bold-webfont.woff') format('woff'),
+	url('../../fonts/Roboto-Bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'roboto-regular';
+	src: url('../../fonts/Roboto-Regular-webfont.eot');
+	src: url('../../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/Roboto-Regular-webfont.woff') format('woff'),
+	url('../../fonts/Roboto-Regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'roboto-light';
+	src: url('../../fonts/Roboto-Light-webfont.eot');
+	src: url('../../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/Roboto-Light-webfont.woff') format('woff'),
+	url('../../fonts/Roboto-Light-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'robotoslab-regular';
+	src: url('../../fonts/RobotoSlab-Regular-webfont.eot');
+	src: url('../../fonts/RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/RobotoSlab-Regular-webfont.woff') format('woff'),
+	url('../../fonts/RobotoSlab-Regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'robotoslab-bold';
+	src: url('../../fonts/RobotoSlab-Bold-webfont.eot');
+	src: url('../../fonts/RobotoSlab-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/RobotoSlab-Bold-webfont.woff') format('woff'),
+	url('../../fonts/RobotoSlab-Bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.65;
+}
+
+
+%roboto_regular {
+	font-family: 'roboto-regular', serif;
+}
+
+%roboto_bold {
+	font-family: 'roboto-bold', serif;
+}
+
+%roboto_light {
+	font-family: 'roboto-light', serif;
+}
+
+%robotoslab_regular {
+	font-family: 'robotoslab-regular', serif;
+}
+
+%robotoslab_bold {
+	font-family: 'robotoslab-bold', serif;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 1em 0;
+	text-align: center;
+}
+

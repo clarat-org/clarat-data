@@ -1,0 +1,12 @@
+# Created by https://www.gitignore.io/api/sass
+### Sass ###
+.sass-cache/
+*.css.map
+_base.scssc
+_header-footer.scssc
+_media-object.scssc
+_normalize.scssc
+_sections.scssc
+_teaser.scssc
+_typography.scssc
+main.scssc

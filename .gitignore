@@ -1,6 +1,6 @@
 # Created by https://www.gitignore.io/api/sass
 ### Sass ###
-.sass-cache/
+.sass-cache
 *.css.map
 _base.scssc
 _header-footer.scssc
@@ -10,3 +10,4 @@ _sections.scssc
 _teaser.scssc
 _typography.scssc
 main.scssc
+/.sass-cache

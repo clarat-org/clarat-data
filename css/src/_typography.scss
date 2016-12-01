@@ -48,13 +48,11 @@
 	font-style: normal;
 }
 
-
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	line-height: 1.65;
 }
-
 
 %roboto_regular {
 	font-family: 'roboto-regular', serif;
@@ -80,5 +78,14 @@ h1 {
 	font-size: 2em;
 	margin: 1em 0;
 	text-align: center;
+
+	@media (max-width: 480px) {
+		margin: .75em 0;
+
+		svg {
+			max-width: 80%;
+			margin: 0 10%;
+		}
+	}
 }
 

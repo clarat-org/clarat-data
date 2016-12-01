@@ -1,6 +1,7 @@
 .teaser {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -8,25 +9,17 @@
 
 .teaser__item {
 	flex: 1 0 30%;
-	padding: 0 1.5em;
-
-	&:first-child {
-		padding-left: 0;
-	}
-
-	&:last-child {
-		padding-right: 0;
-	}
+	max-width: 30%;
 
 	h2 {
 		font-family: 'roboto-bold', serif;
 		text-transform: uppercase;
 		line-height: 1;
-		margin-bottom: 1rem;
+		margin-bottom: 1em;
 	}
 
 	p {
-		margin-bottom: 1rem;
+		margin-bottom: 1em;
 	}
 }
 
@@ -42,4 +35,31 @@
 	@extend %linkbutton;
 	background-color: #F4B528;
 	color: #fff;
+}
+
+@media (max-width: 769px) {
+
+	.teaser {
+		flex-direction: column;
+	}
+
+	.teaser__item {
+		padding: 0;
+		max-width: 100%;
+
+		& + & {
+			margin-top: 2em;
+		}
+	}
+
+	.teaser__link {
+		display: block;
+		text-align: center;
+	}
+}
+
+@media (max-width: 769px) {
+	.teaser__img-container img {
+		width: 100%;
+	}
 }

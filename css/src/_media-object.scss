@@ -31,7 +31,7 @@
 .media-object--img-right {
 	.media-object__content {
 		order: 1;
-		padding-right: 4em;
+		padding-right: 2em;
 	}
 
 	.media-object__img {
@@ -42,7 +42,7 @@
 .media-object--img-left {
 	.media-object__content {
 		order: 2;
-		padding-left: 4em;
+		padding-left: 2em;
 	}
 
 	.media-object__img {
@@ -54,4 +54,43 @@
 	@extend %linkbutton;
 	background-color: #41311A;
 	color: #fff;
+}
+
+@media (max-width: 1000px) {
+	.media-object__img {
+		img {
+			width: 260px;
+		}
+	}
+}
+
+@media (max-width: 769px) {
+
+	.media-object {
+		flex-direction: column;
+	}
+
+	.media-object__link {
+		display: block;
+		text-align: center;
+		margin-bottom: 2em;
+	}
+
+	.media-object__img img {
+		width: 100%;
+		height: auto;
+	}
+
+	.media-object--img-right,
+	.media-object--img-left {
+		.media-object__content {
+			padding: 0;
+		}
+	}
+
+	.media-object--img-left {
+		.media-object__img {
+			order: 2;
+		}
+	}
 }

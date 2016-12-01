@@ -6,4 +6,18 @@
 		border-top: 6px dotted #f6eedc;
 	}
 
+	@media (max-width: 769px) {
+		& + & {
+			padding: 2em;
+			border-top: 3px dotted #f6eedc;
+		}
+	}
+
+}
+
+@media (max-width: 769px) {
+
+	.section {
+		padding: 2em 2em 2em;
+	}
 }

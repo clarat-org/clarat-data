@@ -23,17 +23,29 @@ a {
 	border-top-left-radius: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1140px;
+	max-width: 71.25em;
 	background: rgba(255,255,255,0.9);
 	border-top: 10px solid #85A6AE;
 }
-
 
 %linkbutton {
 	border-radius: 6px 0;
 	font-family: 'roboto-bold', serif;
 	text-decoration: none;
 	display: inline-block;
-	padding: 0 10px;
+	padding: .25em .95em;
 	line-height: 2;
+}
+
+@media (max-width: 1140px) {
+	.container {
+		margin-left: .625em;
+		margin-right: .625em;
+	}
+}
+
+@media (max-width: 1000px) {
+	html {
+		font-size: calc(.75em + .5vw);
+	}
 }
